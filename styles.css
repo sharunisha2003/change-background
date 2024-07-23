@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: red;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    text-align: center;
+    color: white;
+}
+
+#colorLabel {
+    font-size: 24px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#changeColorButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
